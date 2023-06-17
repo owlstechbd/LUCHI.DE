@@ -2333,8 +2333,16 @@ a.navbar-brand.logo.text-uppercase{
   color: #2fb4ae!important;
   font-weight: 600;
 }
+.service-img img{
+  width: 80px;
+}
 .contact {
   background-color: rgba(255, 255, 255, 0.05);
+}
+.center-div{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 .logo-footer{
   color: #fff;
@@ -2461,6 +2469,13 @@ body[data-layout-mode=dark] .contact .custom-form .form-group .form-control {
 @media (max-width: 992px) {
   .footer .linkedin-box::before {
     display: none;
+  }
+}
+@media (max-width: 720px) {
+  .center-div{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 body[data-layout-mode=dark] .footer {
